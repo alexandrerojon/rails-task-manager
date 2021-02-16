@@ -1,0 +1,10 @@
+<h1>this is a test </h1>
+
+
+<%= simple_form_for(@task) do |t| %>
+  <%= t.input :title%>
+  <%= t.input :details%>
+  <%= t.input :completed %>
+
+  <%= t.submit %>
+<% end %>

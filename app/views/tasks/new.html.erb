@@ -1,0 +1,9 @@
+<%= simple_form_for(@task) do |f| %>
+  <%= f.input :title, placeholder: 'new task here' %>
+  <%= f.input :details, placeholder: 'please enter some details' %>
+  <%= f.input :completed %>
+
+  <%= f.submit %>
+<% end %>
+
+
